@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Sample app</title>
+    <link rel="stylesheet" href="clickcounter.css">
+    
+    <!-- import the click-counter -->
+    <link rel="components" href="xclickcounter.html">
+  </head>
+  <body>
+    
+    <h1>{{ message }}</h1>
+    
+    <input bind-value="message" /> 
+    
+    <div id="sample_container_id">
+      <div is="x-click-counter" id="click_counter" count="{{startingCount}}"></div>
+    </div>
+
+    <script type="application/dart" src="clickcounter.dart"></script>
+    <script src="packages/browser/dart.js"></script>
+  </body>
+</html>
