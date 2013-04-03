@@ -5,6 +5,7 @@ void main() {
 }
 
 clickHandler(event) {
+  print("Clicked...");
   var g = new Greeter();
   $("#title").innerHtml = "$g";
 }

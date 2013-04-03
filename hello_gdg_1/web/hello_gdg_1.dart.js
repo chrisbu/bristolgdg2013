@@ -2274,7 +2274,9 @@ $.at=function(){return $.Ty()}
 $.WP=function(){if($.Dz==null)$.Dz=$.at()
 return $.Dz}
 $.E2=function(){$.Vg($.y5(document,"#title")).yI($.SX)}
-$.SX=function(a){var z=$.d($.KX())
+$.SX=function(a){var z
+$.ib("Clicked...")
+z=$.d($.KX())
 $.Qy($.y5(document,"#title"),z)}
 $.KX=function(){return new $.Lj("Hello","World")}
 $.Mg.call$2=$.Mg
